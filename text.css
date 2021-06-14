@@ -1,0 +1,30 @@
+#par1{
+    color: rgba(0, 255, 10, 0.8);
+    text-align: center;
+    text-transform: uppercase;
+}
+#par2{
+    color: blue;
+    text-align: right;
+    text-transform: lowercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#par3{
+    color: red;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    direction: rtl;
+    text-shadow: 2px 2px 5px blue;
+}
+#par4{
+    color: hsla(120, 80%, 50%, 0.9);
+    text-decoration: underline;
+}
+#par5{
+    color: green;
+    text-decoration: overline red;
+    word-spacing: 15px;
+}
