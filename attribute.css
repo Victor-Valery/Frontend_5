@@ -21,15 +21,19 @@ ul li {
     margin: 2px;
     width: 300px;
     border-radius: 20px;
-    list-style-type: symbols("😃");
+    list-style-type: ("😃");
     text-align: center;
-    color: white;
+    color: red;
 }
 ul li:first-child {
     background-color: blue;
 }
 ul li:last-child {
     background-color: red;
+}
+ul li::before {
+    content:"\2764";
+    color: red;
 }
 .p2::first-letter {
     font-size: 50px;
